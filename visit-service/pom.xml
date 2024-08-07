@@ -9,6 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.netlink.rsk</groupId>
+	<packaging>war</packaging>
 	<artifactId>visit-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>visit-service</name>
@@ -83,6 +84,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>visit</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

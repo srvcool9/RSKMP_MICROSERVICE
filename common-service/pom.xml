@@ -9,6 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.netlink.rsk</groupId>
+	<packaging>war</packaging>
 	<artifactId>common-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>common-service</name>
@@ -80,6 +81,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>common</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
